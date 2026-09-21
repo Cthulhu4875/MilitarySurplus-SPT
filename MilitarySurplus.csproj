@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MilitarySurplus</AssemblyName>
+    <RootNamespace>MilitarySurplus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SPT.Server">
+      <HintPath>D:\SPT\SPT_Runtime\SPT.Server.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SPTarkov.Common">
+      <HintPath>D:\SPT\SPT_Runtime\SPTarkov.Common.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SPTarkov.DI">
+      <HintPath>D:\SPT\SPT_Runtime\SPTarkov.DI.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SPTarkov.Reflection">
+      <HintPath>D:\SPT\SPT_Runtime\SPTarkov.Reflection.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SPTarkov.Server.Core">
+      <HintPath>D:\SPT\SPT_Runtime\SPTarkov.Server.Core.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SPTarkov.Server.Assets">
+      <HintPath>D:\SPT\SPT_Runtime\SPTarkov.Server.Assets.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SPTarkov.Server.Web">
+      <HintPath>D:\SPT\SPT_Runtime\SPTarkov.Server.Web.dll</HintPath>
+    </Reference>
+
+    <Reference Include="SemanticVersioning">
+      <HintPath>D:\SPT\SPT_Runtime\SemanticVersioning.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
